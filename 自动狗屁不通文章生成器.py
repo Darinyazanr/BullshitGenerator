@@ -39,7 +39,7 @@ def 另起一段():
     return xx
 
 if __name__ == "__main__":
-    xx = input("请输入文章主题:")
+    xx = input("哎呦,请输入文章主题:")
     for x in xx:
         tmp = str()
         while ( len(tmp) < 6000 ) :
